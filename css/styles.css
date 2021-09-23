@@ -30,6 +30,7 @@
 
 .main-nav {
   display: flex;
+  margin-right: px;
   align-items: center;
 }
 a {
@@ -44,7 +45,7 @@ ul {
 .logo {
   display: inline-block;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 93px;
   color: var(--accent-text-color);
   font-family: Raleway, sans-seri;
   font-size: 28px;
