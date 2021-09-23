@@ -21,14 +21,30 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0, 03em;
 }
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 a {
   text-decoration: none;
 }
 
 ul {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
 }
 .logo {
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
   color: var(--accent-text-color);
   font-family: Raleway, sans-seri;
   font-size: 28px;
@@ -44,8 +60,13 @@ ul {
 .active:focus {
   color: teal;
 }
-
+.hero {
+  text-align: center;
+}
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
   color: var(--white-text-color);
   background: var(--hero-background-color);
   font-weight: 900;
@@ -54,6 +75,11 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+.section {
+  border: 1px solid transparent;
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 
 .section-title {
@@ -72,8 +98,10 @@ ul {
 
   color: #212121;
 }
+/* cite-nav */
 .cite-nav {
   display: flex;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,6 +115,9 @@ ul {
   color: var(--accent-text-color);
 }
 .feature-list {
+  margin-top: 0px;
+  margin-bottom: 10px;
+
   color: var(--titel-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -94,6 +125,8 @@ ul {
   text-transform: uppercase;
 }
 .feature-list-portfolio {
+  margin-top: 0px;
+  margin-bottom: 4px;
   color: var(--titel-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -109,17 +142,27 @@ ul {
   text-align: center;
 }
 .text {
+  margin: 0px;
   font-size: 14px;
   line-height: 1.71;
 }
 .text-name {
+  margin: 0px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .text-name-portfolio {
+  margin: 0px;
   font-size: 16px;
   line-height: 1.88;
+}
+/* ayth-nav */
+.auth-nav {
+  display: flex;
+}
+.auth-nav .item + .item {
+  margin-left: 50px;
 }
 .auth-nav a {
   color: var(--primary-text-color);
@@ -161,6 +204,8 @@ ul {
   color: var(--accent-text-color);
 }
 .button {
+  display: inline-block;
+  margin-top: 0px;
   color: var(--white-text-color);
   background: var(--accent-text-color);
   font-weight: 700;
