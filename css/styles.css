@@ -22,12 +22,11 @@
   letter-spacing: 0, 03em;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .main-nav {
   display: flex;
   align-items: center;
@@ -99,7 +98,6 @@ ul {
   margin-top: 0px;
   margin-right: 700px;
   margin-bottom: 200px;
-
   margin-left: 700px;
   width: 200px;
   height: 50px;
@@ -159,6 +157,24 @@ ul {
 .box-li:not(:nth-child(4n)) {
   margin-right: 30px;
 }
+.photo-works {
+  width: 270;
+  height: 368;
+}
+.photo-works:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+.box-photo {
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+
+  width: 1600px;
+  height: 648px;
+  background: var(--titel-background-color);
+}
 .feature-list {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -185,7 +201,15 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
+.information-section-photo {
+  display: flex;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 94px;
+  width: 1170px;
+  height: 368px;
+}
 .feature-list-name {
   color: var(--titel-text-color);
   font-weight: 500;
@@ -209,6 +233,7 @@ ul {
   font-size: 16px;
   line-height: 1.88;
 }
+
 /* ayth-nav */
 .auth-nav {
   display: flex;
@@ -231,6 +256,10 @@ ul {
 .auch-nav-writing :focus {
   color: var(--accent-text-color);
 }
+/*  блок фото */
+.block-photo
+
+
 /* стилизация футера */
 .footer {
   background: var(--hero-background-color);
