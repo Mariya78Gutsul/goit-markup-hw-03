@@ -26,6 +26,8 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+
 }
 .main-nav {
   display: flex;
@@ -106,6 +108,8 @@ ul {
 .section {
   border: 1px solid transparent;
   margin-top: 0px;
+
+
 }
 
 .section-title {
@@ -169,7 +173,9 @@ ul {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 31px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 
   width: 1600px;
   height: 648px;
@@ -262,7 +268,17 @@ ul {
 
 /* стилизация футера */
 .footer {
-  background: var(--hero-background-color);
+ 
+}
+.footer-fon{ 
+  display: block;  
+   margin-left: auto;
+  margin-right: auto; 
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background:  var(--hero-background-color);  
+  width: 1600px;
+  height: 252px;
 }
 .accent-text {
   color: var(--white-text-color);
@@ -272,12 +288,16 @@ ul {
   line-height: 1.19;
 }
 .adress {
+  margin-top: 0px;
+  margin-bottom: 9px;
   color: var(--white-text-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.41;
 }
 .contacts {
+  margin-top: 0px;
+  margin-bottom: 9px;
   font-weight: 500;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -288,6 +308,18 @@ ul {
 .contacts:focus {
   color: var(--accent-text-color);
 }
+.groups-of-buttons {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 56px;
+  margin-left: auto;
+}
+.buttons{
+  display: flex;
+ margin-top: 94px;
+}
+
 .button {
   display: inline-block;
   border-radius: 8px;
@@ -302,6 +334,9 @@ ul {
   letter-spacing: 0.06em;
 }
 .button-filter {
+  margin-right: 8px;
+  border-radius: 6px;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
