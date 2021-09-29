@@ -275,12 +275,12 @@ ul {
 .block-photo-box:not(:nth-child(3n)) {
   margin-right: 30px;
 }
-
-
-/* стилизация футера */
-.footer {
- 
+.box-portfolio{
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
+/* стилизация футера */
+
 .footer-fon{ 
   display: block;  
    margin-left: auto;
