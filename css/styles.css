@@ -70,7 +70,7 @@ h6 {
 .active:focus {
   color: teal;
 }
-/* site-nav */
+/* ------------------site-nav --------------*/
 .main-nav {
   display: flex;
   align-items: center;
@@ -100,7 +100,7 @@ h6 {
   letter-spacing: 0.02em;
   color: var(--titel-text-color);
 }
-/* auth-nav */
+/*-------------- auth-nav--------------- */
 
 .auth-nav :not(:last-child) {
   margin-right: 50px;
@@ -123,7 +123,7 @@ h6 {
   display: flex;
   align-items: center;
 }
-/*  Герой */
+/*  ------------------Герой ------------------*/
 .hero {
   text-align: center;
   padding: 200px 0px;
@@ -143,6 +143,17 @@ h6 {
 .hero-button {
   margin-top: 0px;
   padding: 10px 32px;
+}
+.button {
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto;
+  color: var(--white-text-color);
+  background: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 /* Информационная секция */
 .information-section {
@@ -181,7 +192,7 @@ h6 {
   justify-content: space-between;
 }
 
-/* Фото сотрудников */
+/*--------- Фото сотрудников-------- */
 .box-photo {
   background-color: var(--titel-background-color);
   padding: 94px 0px;
@@ -194,6 +205,8 @@ h6 {
 .team-description {
   padding: 30px 0px;
   text-align: center;
+  border: 1px solid var(--white-text-color)
+  border-radius: ;
 }
 .feature-list-name {
   color: var(--titel-text-color);
@@ -210,7 +223,7 @@ h6 {
   background-color: var(--primary-background-color);
   border-radius: 0px 0px 4px 4px;
 }
-/* Футер */
+/* ------------------Футер---------------- */
 .footer-fon {
   background: var(--hero-background-color);
   padding: 60px 0px;
@@ -248,64 +261,17 @@ h6 {
 .contacts:focus {
   color: var(--accent-text-color);
 }
-
-.feature-list-portfolio {
-  color: var(--titel-text-color);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.text-name-portfolio {
-  font-size: 16px;
-  line-height: 1.88;
-}
-
-/*  блок фото portpholio */
-.block-photo {
-  display: flex;
-  flex-wrap: wrap;
-}
-.block-photo-box {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  margin-left: 0px;
-}
-.block-photo-box:not(:nth-child(3n)) {
-  margin-right: 30px;
-}
-.box-portfolio {
-  margin-top: 0px;
+/*  ------photo portpholio------ */
+.portfolio-box {
+  margin-top: 94px;
   margin-bottom: 94px;
-}
-.groups-of-buttons {
-  display: inline-block;
-  margin-top: 0px;
-  margin-right: auto;
-  margin-bottom: 56px;
-  margin-left: auto;
-  min-width: 611px;
 }
 .buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.button {
-  display: block;
-  border-radius: 8px;
-  margin: 0 auto;
-  color: var(--white-text-color);
-  background: var(--accent-text-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-}
 .button-filter {
-  display: inline-block;
-  min-width: 73px;
   border-radius: 6px;
   padding: 6px 22px;
   font-weight: 500;
@@ -326,3 +292,35 @@ h6 {
   line-height: 1.63;
   text-align: center;
 }
+.portfolio-box-photo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ margin-bottom: -30px;
+align-content: space-between;
+}
+.portfolio-item-title {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.portfolio-photo-text{
+  display: block;
+  padding: 20px 24px;   
+}
+ .portfolio-item{
+  margin-bottom: 30px;
+  border: 1px solid var(--white-text-color);
+} 
+
+
+ 
+
+
