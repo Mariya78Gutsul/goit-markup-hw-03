@@ -205,8 +205,7 @@ h6 {
 .team-description {
   padding: 30px 0px;
   text-align: center;
-  border: 1px solid var(--white-text-color)
-  border-radius: ;
+  border: 1px solid var(--white-text-color);
 }
 .feature-list-name {
   color: var(--titel-text-color);
@@ -296,8 +295,8 @@ h6 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- margin-bottom: -30px;
-align-content: space-between;
+  margin-bottom: -30px;
+  align-content: space-between;
 }
 .portfolio-item-title {
   color: var(--titel-text-color);
@@ -311,16 +310,11 @@ align-content: space-between;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-.portfolio-photo-text{
+.portfolio-photo-text {
   display: block;
-  padding: 20px 24px;   
+  padding: 20px 24px;
 }
- .portfolio-item{
+.portfolio-item {
   margin-bottom: 30px;
   border: 1px solid var(--white-text-color);
-} 
-
-
- 
-
-
+}
