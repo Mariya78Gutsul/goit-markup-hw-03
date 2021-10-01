@@ -5,6 +5,7 @@
 /* основной фон  background: # ffffff; */
 /* второстепенный фон  background: #F5F4FA;*/
 /* фон для героя   background:#2f303a; */
+/* цвет рамки для фото портфолио background-color:#EEEEEE */
 :root {
   --primary-text-color: #757575;
   --titel-text-color: #212121;
@@ -13,6 +14,7 @@
   --primary-background-color: #ffffff;
   --titel-background-color: #f5f4fa;
   --hero-background-color: #2f303a;
+  --border-background-color: #eeeeee;
 }
 
 body {
@@ -34,6 +36,7 @@ a {
   color: var(--primary-text-color);
 }
 img {
+  display: block;
   margin: 0px;
 }
 ul {
@@ -146,7 +149,7 @@ h6 {
 }
 .button {
   display: block;
-  border-radius: 8px;
+  border-radius: 4px;
   margin: 0 auto;
   color: var(--white-text-color);
   background: var(--accent-text-color);
@@ -154,12 +157,16 @@ h6 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border: none;
+  cursor: pointer;
 }
 /* Информационная секция */
+.section {
+  padding: 94px 0px;
+}
 .information-section {
   display: flex;
   align-items: center;
-  padding: 94px 0px;
 }
 .information-section :not(:nth-child(4n)) {
   margin-right: 30px;
@@ -180,12 +187,16 @@ h6 {
   line-height: 1.71;
 }
 /* Чем мы занимаемся */
+.work {
+  padding-top: 0px;
+}
 .section-title {
   color: var(--titel-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
 }
 .list-photo {
   display: flex;
@@ -195,12 +206,10 @@ h6 {
 /*--------- Фото сотрудников-------- */
 .box-photo {
   background-color: var(--titel-background-color);
-  padding: 94px 0px;
 }
 .list-work {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
 }
 .team-description {
   padding: 30px 0px;
@@ -212,13 +221,14 @@ h6 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.27;
+  margin-bottom: 10px;
 }
 .text-name {
   margin: 0px;
   font-size: 16px;
   line-height: 1.19;
 }
-.list-work-li {
+.item-work {
   background-color: var(--primary-background-color);
   border-radius: 0px 0px 4px 4px;
 }
@@ -261,16 +271,13 @@ h6 {
   color: var(--accent-text-color);
 }
 /*  ------photo portpholio------ */
-.portfolio-box {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
 .buttons {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 .button-filter {
+  font-family: inherit;
   border-radius: 6px;
   padding: 6px 22px;
   font-weight: 500;
@@ -278,6 +285,8 @@ h6 {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
 }
 .button-filter:not(:nth-child(5n)) {
   margin-right: 8px;
@@ -316,5 +325,5 @@ h6 {
 }
 .portfolio-item {
   margin-bottom: 30px;
-  border: 1px solid var(--white-text-color);
+  border: 1px solid var(--border-background-color);
 }
